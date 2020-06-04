@@ -49,7 +49,7 @@ section.hide{left: -340px;animation: sectionhide 0.5s linear;}
 
 .images-title{background-image: url('../images/cover.jpg');background-position: center;width: 50vw;height: 100vh;background-size: cover;}
 .content{color: #fff;display: flex;flex-direction: column;justify-content: center;align-items: center;width: 100%;height: 100%;padding: 0 20%;box-sizing: border-box;}
-.content p.quote{font-size: 50px;font-weight: 900;text-align: center;}
+.content p.quote{font-size: 45px;font-weight: 900;text-align: center;}
 .content p.writer{font-family: 'Lato', sans-serif;font-size: 19px;margin: 0;}
 .content.country{background-color: #000;}
 .content.country h1{font-size: 6em;text-align: center;}
