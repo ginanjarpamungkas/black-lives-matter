@@ -106,7 +106,8 @@ section.hide{left: -340px;animation: sectionhide 0.5s linear;}
     .title-content{top: 0;left:0;right: 0;bottom: 0;margin:0;padding: 0 25px;width: 100vw;z-index: 1;background-color: rgb(0, 0, 0,0.8);}
     .title-content center {margin-top: 40px;}
     .images-title{position: absolute;top: 0;left:0;right: 0;bottom: 0;width: 100vw;z-index: 0;}
-    .title-content h1{font-size: 40px;margin: 0;}
+    .title-content h1{font-size: 35px;margin: 0;line-height: unset;}
+    .title-content p{font-size: 12px;}
     .content p {line-height: unset;margin: 5px auto;font-size: 25px;}
     .content p.quote{font-size: 30px;line-height: 32px;}
     .content p.writer{font-size: 16px;}
