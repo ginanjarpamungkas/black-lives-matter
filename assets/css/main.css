@@ -119,7 +119,8 @@ section.hide{left: -340px;animation: sectionhide 0.5s linear;}
     .title-content p{font-size: 12px;}
 }
 @media only screen and (max-width:350px){
-    .title-content p {font-size: 14px;}
+    .title-content h1 {font-size: 30px;}
+    .title-content p {font-size: 12px;}
     .title-content center {margin-top: 20px;}
     .content.country h1{font-size: 3.5em;}
     .content p.quote{font-size: 25px;line-height: unset;}
