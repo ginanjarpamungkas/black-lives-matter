@@ -4,7 +4,7 @@ var max = $('.slide').length;
 var prev = 0;
 var now = 1;
 var next = 2;
-// listen to events...
+// use hammer.js to swipe function
 mc.on("swipeleft swiperight tap", function(ev) {
     if (now != max) {
         if (ev.type == 'swipeleft') {
@@ -17,6 +17,20 @@ mc.on("swipeleft swiperight tap", function(ev) {
         }
     }
 });
+// use keycode to arrow left/right click function
+$("body").keydown(function(e) {
+    if(e.keyCode == 37) { // left
+        if (now != 1) {
+            $('#left').click()
+        }
+    }
+    else if(e.keyCode == 39) { // right
+        if (now != max) {
+            $('#right').click()
+        }
+    }
+});
+// load to hide left arrow button
 $(document).ready(function() {
     $('.left').css('display','none');
 });
